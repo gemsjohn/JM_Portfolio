@@ -1,0 +1,131 @@
+:root {
+    --theme-color-teal: #44165f;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+header {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    position: sticky;
+    position: -webkit-stick;
+    top: 0;
+    background: black;
+    z-index: 9999;
+}
+
+header nav {
+    margin: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+
+header nav ul li a {
+    padding: 10px 50px;
+    font-weight: bold;
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover {
+    background: var(--theme-color-teal);
+    color: rgb(158, 253, 209);
+    border-radius: 30px 10px;
+    text-shadow: none;
+}
+
+.cyberpunk-landscape {
+    background-image: url(../img/cyberpunk.jpg);
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 35vw;
+    width: 100%;
+    /* margin-bottom: 25px; */
+}
+
+.cyberpunk-landscape h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.about-me {
+    background: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+}
+
+.box1 {
+    display: block;
+    margin: auto;
+    background: white;
+    height: 10vh;
+    width: 27%;
+    border: var(--theme-color-teal);
+    text-align: center;
+}
+
+.box1 h1 {
+    font-size: 1.5vh;
+}
+
+.box1 p {
+    font-size: 1.2vh;
+}
+
+.portfolio-text {
+    background: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+
+.portfolio-text h2 {
+    padding: 20px;
+}
+
+.portfolio-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 2 1 70%;
+    row-gap: 20px;
+    background: white;
+}
+
+
