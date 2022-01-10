@@ -87,24 +87,34 @@ header nav ul li a:hover {
     justify-content: space-evenly;
     width: 100%;
     text-align: center;
+    padding: 30px;
 }
 
 .box1 {
     display: block;
     margin: auto;
     background: white;
-    height: 10vh;
+    height: 15vh;
     width: 27%;
-    border: var(--theme-color-teal);
     text-align: center;
+    border-radius: 15px;
+}
+.box1:hover {
+    background: var(--theme-color-teal);
+    color: rgb(158, 253, 209);
+    border-radius: 50px 20px;
+    text-shadow: none;
 }
 
 .box1 h1 {
     font-size: 1.5vh;
+    padding: 10px;
 }
 
 .box1 p {
     font-size: 1.2vh;
+    padding: auto;
+    margin: 10px;
 }
 
 .portfolio-text {
@@ -113,6 +123,7 @@ header nav ul li a:hover {
     color: white;
     height: 100vh;
     text-align: center;
+    padding: 30px;
 }
 
 .portfolio-text h2 {
