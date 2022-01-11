@@ -229,6 +229,18 @@ header nav ul li a:hover {
     color: white;
     padding: 15px 0;
     border-radius: 10px;
+}
+footer {
+    background: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+footer h3 {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+footer h5 {
 
 }
 
