@@ -116,31 +116,67 @@ header nav ul li a:hover {
 
 .box1 {
     display: block;
-    background: white;
+    background-image: url(../img/under-construction.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
     /* height: 30vh; */
     width: 30vw;
     margin: 10px;
     text-align: center;
     border-radius: 15px;
+    opacity: 0.75;
 }
 .box1:hover {
-    background: var(--theme-color-purple);
     color: rgb(158, 253, 209);
     border-radius: 50px 20px;
     text-shadow: none;
+    opacity: 1.0;
 }
-
-
 
 .box1 h1 {
     font-size: 2.5vh 1.5vw;
     padding: 10px;
+    background: var(--theme-color-purple);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2.5vh;
+    margin: 10px 200px;
+    
 }
 
 .box1 p {
     font-size: 1.2vh;
     padding: auto;
     margin: 10px;
+}
+.horiseon {
+    display: block;
+    background: white;
+    color: white;
+    /* height: 30vh; */
+    width: 30vw;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    background-image: url(../img/digital-marketing-meeting.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 0.75;
+}
+.horiseon:hover {
+    opacity: 1.0;;
+}
+.horiseon h1 {
+    font-size: 2.5vh 1.5vw;
+    padding: 10px;
+    background: rgba(68, 22, 95, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2.5vh;
+    margin: 10px 200px;
+    
 }
 
 .portfolio-info {
@@ -169,11 +205,16 @@ header nav ul li a:hover {
     flex-direction: column;
     background-image: url(../img/hero-bg.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.75;
     height: 100%;
     width: 100%;
     border-radius: 15px;
     color: black;
 
+}
+.box-top:hover {
+    opacity: 1.0;
 }
 
 .box-top h1 {
@@ -240,7 +281,5 @@ footer {
 footer h3 {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
-footer h5 {
 
-}
 
