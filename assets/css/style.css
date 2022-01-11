@@ -15,12 +15,12 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    position: sticky;
-    position: -webkit-stick;
-    top: 0;
+    /* position: sticky; */
+    /* position: -webkit-stick; */
+    /* top: 0; */
     background: black;
     /* border-radius: 0 0 30px 30px; */
-    z-index: 9999;
+    /* z-index: 9999; */
 }
 
 
@@ -160,7 +160,8 @@ header nav ul li a:hover {
 .box-top {
     display: flex;
     flex-direction: column;
-    background: white;
+    background-image: url(../img/hero-bg.jpg);
+    background-size: 100%;
     height: 100%;
     width: 100%;
     border-radius: 15px;
