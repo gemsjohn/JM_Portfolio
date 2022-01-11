@@ -35,6 +35,7 @@ header nav ul {
     align-items: center;
     list-style: none;
     
+    
 }
 
 header nav ul li a {
@@ -43,6 +44,8 @@ header nav ul li a {
     font-size: 2.5vh;
     text-decoration: none;
     color: white;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+    
 }
 
 header nav ul li a:hover {
@@ -72,6 +75,7 @@ header nav ul li a:hover {
     align-items: center;
     text-align: center;
     height: 100%;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
 
 .about-me {
@@ -91,6 +95,7 @@ header nav ul li a:hover {
     width: 100%;
     padding: 10px;
     text-align: center;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
 .container {
     display: flex;
@@ -155,6 +160,7 @@ header nav ul li a:hover {
     width: 100%;
     /* padding: 10px; */
     text-align: center;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
 
 .box-top {
