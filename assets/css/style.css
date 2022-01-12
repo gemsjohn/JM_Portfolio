@@ -8,7 +8,7 @@
     padding: 0;
     /* background-color: black; */
 }
-
+/* [START] Header [START] */
 header {
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -23,12 +23,9 @@ header {
     /* border-radius: 0 0 30px 30px; */
     /* z-index: 9999; */
 }
-
-
 header nav {
     margin: 10px 0;
 }
-
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +35,6 @@ header nav ul {
     
     
 }
-
 header nav ul li a {
     padding: 10px 50px;
     font-weight: bold;
@@ -48,14 +44,15 @@ header nav ul li a {
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
     
 }
-
 header nav ul li a:hover {
     background: var(--theme-color-purple);
     color: rgb(158, 253, 209);
     border-radius: 30px 10px;
     text-shadow: none;
 }
+/* [END] Header [END] */
 
+/* [STAR] Primary Image [START] */
 .cyberpunk-landscape {
     /* IMG Resource: free4kwallpapers.com */
     background-image: url(../img/cyberpunk.jpg);
@@ -78,7 +75,9 @@ header nav ul li a:hover {
     height: 100%;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
+/* [END] Primary Image [END] */
 
+/* [START] About Me Section [START] */
 .about-me {
     display: flex;
     flex-wrap: wrap;
@@ -113,6 +112,7 @@ header nav ul li a:hover {
     width: 61vw;
 
 }
+/* [END] ABout Me Section [END] */
 
 .box1 {
     display: block;
