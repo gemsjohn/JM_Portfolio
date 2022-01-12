@@ -120,7 +120,7 @@ header nav ul li a:hover {
     background-size: 100%;
     background-repeat: no-repeat;
     color: white;
-    /* height: 30vh; */
+    height: 100%;
     width: 30vw;
     margin: 10px;
     text-align: center;
@@ -128,20 +128,17 @@ header nav ul li a:hover {
     opacity: 0.75;
 }
 .box1:hover {
-    color: rgb(158, 253, 209);
-    border-radius: 50px 20px;
-    text-shadow: none;
     opacity: 1.0;
 }
 
 .box1 h1 {
     font-size: 2.5vh 1.5vw;
     padding: 10px;
-    background: var(--theme-color-purple);
+    background: rgba(68, 22, 95, 1);
     border-radius: 10px;
     text-align: center;
-    font-size: 2.5vh;
-    margin: 10px 200px;
+    font-size: 1.4vw;
+    margin: 5px 9vw;
     
 }
 
@@ -150,33 +147,39 @@ header nav ul li a:hover {
     padding: auto;
     margin: 10px;
 }
-.horiseon {
+.box1-horiseon {
     display: block;
-    background: white;
+    /* background: white; */
     color: white;
-    /* height: 30vh; */
-    width: 30vw;
-    margin: 10px;
-    text-align: center;
+    /* height: 100%; */
+    /* width: 30vw; */
+    /* margin: 10px; */
+    /* text-align: center; */
     border-radius: 15px;
     background-image: url(../img/digital-marketing-meeting.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 100%;
     opacity: 0.75;
 }
-.horiseon:hover {
+.box1-horiseon:hover {
     opacity: 1.0;;
 }
-.horiseon h1 {
+.box1-horiseon h1 {
     font-size: 2.5vh 1.5vw;
     padding: 10px;
-    background: rgba(68, 22, 95, 0.5);
+    background: rgba(68, 22, 95, 1);
     border-radius: 10px;
     text-align: center;
-    font-size: 2.5vh;
-    margin: 10px 200px;
+    font-size: 1.4vw;
+    margin: 5px 9vw;
     
+    
+}
+
+.box1-horiseon p {
+    font-size: 1.2vh;
+    padding: auto;
+    margin: 10px;
 }
 
 .portfolio-info {
@@ -220,6 +223,13 @@ header nav ul li a:hover {
 .box-top h1 {
     font-size: 2.5vh 1.5vw;
     padding: 10px;
+    background: rgba(68, 22, 95, 1);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.4vw;
+    margin: 5px 22vw;
+    text-shadow: none;
+    color: white;
 }
 
 .box-top p {
