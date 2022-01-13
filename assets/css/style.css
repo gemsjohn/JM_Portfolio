@@ -6,11 +6,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* background-color: black; */
 }
-/* section {
-    padding: 60px;
-} */
 
 /* [START] Header [START] */
 header {
@@ -20,12 +16,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    /* position: sticky; */
-    /* position: -webkit-stick; */
-    /* top: 0; */
     background: black;
-    /* border-radius: 0 0 30px 30px; */
-    /* z-index: 9999; */
 }
 header nav {
     margin: 10px 0;
@@ -65,7 +56,6 @@ header nav ul li a:hover {
     background-repeat: no-repeat;
     height: 35vw;
     width: 100%;
-    /* margin-bottom: 25px; */
 }
 
 .cyberpunk-landscape h1 {
@@ -81,8 +71,8 @@ header nav ul li a:hover {
 }
 /* [END] Primary Image [END] */
 
-/* [START] About Me Section [START] */
-.about-me {
+/* [START] Reusable container styling [START] */
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -92,7 +82,7 @@ header nav ul li a:hover {
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.about-header {
+.container-header {
     color: white;
     width: 100%;
     padding: 10px;
@@ -101,15 +91,14 @@ header nav ul li a:hover {
     font-size: 3.0vh;
     margin-top: 40px;
 }
-.about-header p {
+.container-header p {
     text-align: left;
     margin: 20px;
+    text-shadow: none;
 }
 .facts {
     margin: 20px;
     flex: 1;
-    /* background-size: contain;
-    background-repeat: no-repeat; */
     color: white;
     width: 100%;
     opacity: 0.7;
@@ -121,48 +110,23 @@ header nav ul li a:hover {
     position: absolute;
     margin: 20px;
     text-shadow: 0 0 10px black;
-    
-    
 }
 .facts h2 {
     position: absolute;
     margin: 50px auto auto 20px;
     font-size: 15px;;
     text-shadow: 0 0 10px black;
-    
-    
 }
 .facts img {
     width: 100%;
     border-radius: 20px
 }
-/* [END] ABout Me Section [END] */
 .box {
     width: 5%;
 }
-.portfolio-facts {
-    margin: 20px;
-    flex: 1;
-    color: white;
-    width: 100%;
-    opacity: 0.7;
-}
+/* [END] ABout Me Section [END] */
 
-.portfolio-facts:hover {
-    opacity: 1;
-}
-.portfolio-facts h1 {
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-}
-.portfolio-facts img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    
-    
-}
+/* [START] Portfolio fact container [START] */
 .portfolio-facts1 {
     margin: 20px;
     flex: 1;
@@ -193,9 +157,9 @@ header nav ul li a:hover {
     width: 100%;
 
 }
+/* [END] Portfolio fact container [END] */
 
-/* [START] Contact Me [START] */
-
+/* [START] Contact Me specific styling [START] */
 .box2 {
     margin: 20px;
     flex: 1;
@@ -234,7 +198,7 @@ header nav ul li a:hover {
     margin-bottom: 21vh;
 
 }
-/* [END] Contact Me [END] */
+/* [END] Contact Me specific styling [END] */
 
 /* [START] Footer [START] */
 footer {
@@ -301,7 +265,5 @@ footer h3 {
         width: 50%;
         text-align: center;
     }
-
-    
 }
 
