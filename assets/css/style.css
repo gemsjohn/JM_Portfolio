@@ -98,6 +98,12 @@ header nav ul li a:hover {
     padding: 10px;
     text-align: center;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+    font-size: 3.0vh;
+    margin-top: 40px;
+}
+.about-header p {
+    text-align: left;
+    margin: 20px;
 }
 .facts {
     margin: 20px;
@@ -112,20 +118,33 @@ header nav ul li a:hover {
     opacity: 1;
 }
 .facts h1 {
-    text-align: center;
+    position: absolute;
+    margin: 20px;
+    text-shadow: 0 0 10px black;
+    
+    
+}
+.facts h2 {
+    position: absolute;
+    margin: 50px auto auto 20px;
+    font-size: 15px;;
+    text-shadow: 0 0 10px black;
+    
+    
 }
 .facts img {
     width: 100%;
-    border-radius: 40px
+    border-radius: 20px
 }
 /* [END] ABout Me Section [END] */
 .box {
-    width: 20%;
+    width: 5%;
 }
 .portfolio-facts {
     margin: 20px;
     flex: 1;
     color: white;
+    width: 100%;
     opacity: 0.7;
 }
 
@@ -139,7 +158,8 @@ header nav ul li a:hover {
 }
 .portfolio-facts img {
     width: 100%;
-    border-radius: 40px;
+    height: 100%;
+    border-radius: 20px;
     
     
 }
@@ -149,6 +169,7 @@ header nav ul li a:hover {
     color: white;
     width: 100%;
     opacity: 0.7;
+
 }
 
 .portfolio-facts1:hover {
@@ -156,14 +177,21 @@ header nav ul li a:hover {
 }
 
 .portfolio-facts1 h1 {
-    /* width: 100%;
-    padding: 10px; */
-    text-align: center;
+    position: absolute;
+    margin: 20px;
+    text-shadow: 0 0 10px black;
 }
 .portfolio-facts1 img {
     width: 100%;
-    border-radius: 40px;
+    border-radius: 20px;
     
+}
+
+.portfolio-facts2 {
+    flex: 1;
+    color: white;
+    width: 100%;
+
 }
 
 /* [START] Contact Me [START] */
@@ -172,6 +200,7 @@ header nav ul li a:hover {
     margin: 20px;
     flex: 1;
     color: white;
+    width: 100%;
     opacity: 0.7;
 }
 .box2 input, .box2 textarea {
@@ -202,6 +231,7 @@ header nav ul li a:hover {
 }
 .hyperlink {
     float: right;
+    margin-bottom: 21vh;
 
 }
 /* [END] Contact Me [END] */
@@ -235,6 +265,43 @@ footer h3 {
         width: 100%;
         justify-content: center;
     }
+    .facts {
+        flex: 1 70%;
+    }
+    .portfolio-facts1 {
+        flex: 1 100%;
+        margin: 70px
+    }
+    .portfolio-facts2 {
+        flex: 1 100%;
+
+    }
+    .hyperlink {
+        float: none;
+        /* flex: 1 100%; */
+        text-align: center;
+        margin-bottom: 0;
+        
+    }
+    .box2 {
+        flex: 1 100%;
+    }
+    .box2 form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 33%;
+    }
+    .box2 label, .box2 input {
+        text-align: center;
+    }
+    .box2 p {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        text-align: center;
+    }
+
     
 }
 
