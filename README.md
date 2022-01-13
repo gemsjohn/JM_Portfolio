@@ -22,6 +22,8 @@ This repository produces a portfolio webpage that acts as a portal for all of th
 - Responsive layout that adapts to the users viewport
 
 ## Mockup Images
+[John Martin - Portfolio Website](https://gemsjohn.github.io/JM_Portfolio/)
+
 ### [Header & Navigation]
 
 ![JM_Portfolio Mockup IMG 1](https://github.com/gemsjohn/JM_Portfolio/blob/main/assets/img/Mockup/Mockup_1.png)
